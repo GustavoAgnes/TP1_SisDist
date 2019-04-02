@@ -16,9 +16,11 @@ public class Main {
         if(o == 1)
         {
             Server s = new Server();
+            s.startServer();
         }
         else if(o == 2){
             Client c = new Client();
+            c.startClient();
         }
         }
 
